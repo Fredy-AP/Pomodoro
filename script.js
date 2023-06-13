@@ -1,3 +1,15 @@
+function iniciarPomodoro() {
+  var tiempoInput = document.getElementById('tiempo-input');
+  var tiempo = tiempoInput.value;
+
+  // Realiza la lógica de temporizador utilizando el valor de tiempo
+  // ...
+
+  // Resto del código para el temporizador
+}
+
+
+
 $(document).ready(function(){
   var countS = 25;
   $("#session").html(countS);
